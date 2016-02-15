@@ -1,0 +1,175 @@
+﻿html {
+	overflow-y: scroll;
+}
+
+body {
+	display: block;
+	background-color: #eee;
+}
+
+.shop {
+	display: block;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	width: 1060px;
+	height: 880px;
+	border-left: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	font-family: Helvetica, Arial, freesans, clean, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #000;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+h1 { 
+	text-align: left; 
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 42px;
+}
+
+h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
+img {
+	border: 1px solid #ccc;
+	width: 632px;
+}
+
+.header {
+	margin: 50px 50px 0px 50px;
+	float: left;
+}
+   
+.menu-primary {
+	display: inline-block;
+	margin: 38px 0px;
+	padding: 0 0 0 20px;
+	float: left;
+	width: 940px;
+	height: 40px;
+	background-color: #585858;
+}
+
+.menu-primary li {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 10px;
+	padding: 5px;
+	list-style: none;
+}
+
+.menu-primary a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu-primary a:active {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.left-sidebar {
+	margin: 0px 0px 0px 50px;
+	float: left;
+	width: 23%;
+	clear: both;
+}
+
+.menu-sidebar {
+	
+}
+
+.menu-sidebar li {
+	float: left;
+	text-align: left;
+	line-height: 30px;
+	padding: 0 20px;
+	list-style: none;
+	width: 240px;
+	border: 1px solid #ccc;
+	overflov: hidden;
+}
+
+.menu-sidebar a {
+	color: #585858;
+	text-decoration: none;
+}
+
+.menu-sidebar a:active {
+	background-color: #eee;
+	color: #000;
+	text-decoration: none;
+	padding: 0 0 0 25px;
+}
+
+.content {
+	margin: 0px 50px 0px 50px;
+	float: right;
+	width: 60%;
+}
+
+.footer {
+	margin: 0px 50px;
+	float: left;
+	clear: both;
+	width: 960px;
+	height: 40px;
+	background-color: #ccc;
+	color: #585858;
+}
+
+.menu-footer {
+	display: inline-block;
+	padding: 0 0 0 20px;
+	float: left;
+	height: 40px;
+	width: 60%;
+}
+
+.menu-footer li {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 10px;
+	padding: 5px;
+	list-style: none;
+}
+
+.menu-footer a {
+	color: #585858;
+	text-decoration: none;
+}
+
+.menu-footer a:active {
+	color: #585858;
+	text-decoration: anderline;
+}
+
+.copyright {
+	float: right;
+	padding: 5px 10px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+p {
+	margin: 40px 20px 50px 20px;
+	font-size: 13px;
+}
+
+
