@@ -39,7 +39,7 @@ h1 a {
 
 img {
 	border: 1px solid #ccc;
-	width: 632px;
+	max-width: 100%;
 }
 
 .header {
@@ -48,7 +48,6 @@ img {
 }
    
 .menu-primary {
-	display: inline-block;
 	margin: 38px 0px;
 	padding: 0 0 0 20px;
 	float: left;
@@ -73,7 +72,8 @@ img {
 	text-align: center;
 }
 
-.top-active {
+.menu-primary a:hover {
+	display: block;
 	background-color: #000;
 	color: #fff;
 	text-decoration: none;
@@ -87,35 +87,29 @@ img {
 	clear: both;
 }
 
-.menu-sidebar {
-	
-}
-
 .menu-sidebar li {
 	float: left;
 	text-align: left;
 	vertical-align: middle;
 	line-height: 30px;
-	padding: 0 20px;
 	list-style: none;
-	width: 240px;
+	width: 100%;
 	border: 1px solid #ccc;
 	overflov: hidden;
 }
 
 .menu-sidebar a {
+	padding: 0 20px;
 	color: #585858;
 	text-decoration: none;
 }
 
-.sidebar-active {
+.menu-sidebar a:hover {
+	display: block;
 	background-color: #eee;
-}
-
-.sidebar-active a {
 	color: #000;
 	text-decoration: none;
-	padding: 0 0 0 30px;
+	padding: 0 0 0 40px;
 }
 
 .content {
@@ -135,7 +129,6 @@ img {
 }
 
 .menu-footer {
-	display: inline-block;
 	padding: 0 0 0 20px;
 	float: left;
 	height: 40px;
@@ -157,7 +150,9 @@ img {
 	text-decoration: none;
 }
 
-.footer-active a {
+.menu-footer a:hover {
+	width: 120px;
+	height: 40px;
 	color: #000;
 	text-decoration: underline;
 }
